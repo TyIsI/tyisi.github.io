@@ -7,6 +7,6 @@ $( document ).ready( function() {
 
 	$.get( "status.json", function( response ) {
 		$( "#last_updated" ).text( $.timeago( response.last_seen ) );
-		$( "#alive_status" ).html( response.state );
+		$( "#alive_status" ).html( response.status );
 	});
 });
