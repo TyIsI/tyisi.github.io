@@ -1,7 +1,7 @@
 var fs = require('fs');
 
 var status = {
-	"status":"alive",
+	"status":"YES",
 	"last_seen":Date.now()
 }
 
